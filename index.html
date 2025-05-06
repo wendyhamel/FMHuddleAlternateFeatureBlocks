@@ -12,15 +12,22 @@
 
 </head>
 <body>
-<header class="bg-hdl-light-cyan flex justify-between item-center py-6 px-3.5">
-  <img class="w-26 h-auto object-contain" src="./images/logo.svg" alt="">
-  <button type="button" class="bg-white rounded-full shadow-hdl-glow text-hdl-dark-cyan font-bold text-xs px-5 py-1">Try It Free</button>
+<header class="relative z-10 bg-hdl-light-cyan">
+  <div class="flex justify-between item-center py-6 px-3.5 xl:mx-auto xl:max-w-7xl xl:py-12">
+    <img class="w-26 h-auto object-contain xl:w-48" src="./images/logo.svg" alt="">
+    <button
+        type="button"
+        class="cursor-pointer bg-white rounded-full shadow-hdl-glow text-hdl-dark-cyan font-bold text-xs px-5 py-1 xl:px-16 xl:py-3.5 xl:text-sm hover:text-hdl-gray-blue transition-colors ease-in"
+    >
+      Try It Free
+    </button>
+  </div>
 </header>
 <main class="relative antialiased">
   <section class="relative bg-hdl-light-cyan pt-15 px-9 pb-10">
     <picture>
       <source srcset="./images/bg-hero-desktop.svg" media="(min-width: 640px)">
-      <img class="absolute -translate-y-30 w-full inset-x-0" src="./images/bg-hero-mobile.svg" aria-hidden="true">
+      <img class="pointer-events-none absolute -translate-y-30 w-full inset-x-0" src="./images/bg-hero-mobile.svg" aria-hidden="true">
     </picture>
     <div class="relative grid gap-6">
       <h1 class="font-heading font-semibold text-2xl/9 text-center md:text-4xl lg:text-5xl">Build The Community Your Fans Will Love</h1>
@@ -28,7 +35,12 @@
         Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
         Create connections with your users as you engage in genuine discussion.
       </p>
-      <button type="button" class="place-self-center bg-hdl-pink rounded-full text-white text-xs font-bold px-15 py-3">Get Started For Free</button>
+      <button
+          type="button"
+          class="cursor-pointer place-self-center bg-hdl-pink rounded-full text-white text-xs font-bold px-15 py-3 hover:bg-hdl-pink/60 transition-colors ease-in"
+      >
+        Get Started For Free
+      </button>
     </div>
     <div class="relative px-1 pt-13">
       <img class="object-cover" src="./images/illustration-mockups.svg" alt="">
@@ -63,7 +75,12 @@
   <section class="bg-linear-to-b from-white via-white via-62% to-hdl-dark-cyan to-62% px-3 mt-30">
     <div class="rounded-2xl shadow-hdl-glow bg-white pt-11 px-5 pb-10 grid gap-6">
       <h2 class="font-heading font-semibold text-lg text-center">Ready To Build Your Community?</h2>
-      <button type="button" class="place-self-center bg-hdl-pink rounded-full text-white text-xs font-bold px-10 py-3">Get Started For Free</button>
+      <button
+          type="button"
+          class="cursor-pointer place-self-center bg-hdl-pink rounded-full text-white text-xs font-bold px-10 py-3 hover:bg-hdl-pink/60 transition-colors ease-in"
+      >
+        Get Started For Free
+      </button>
     </div>
   </section>
 </main>
@@ -132,7 +149,7 @@
   </ul>
   <ul class="flex gap-3 justify-center pb-6">
     <li>
-      <a class="block border-1 border-white rounded-full p-2" href="">
+      <a class="block border-1 border-white rounded-full p-2 hover:border-hdl-pink hover:text-hdl-pink transition-colors ease-in" href="">
         <svg
             xmlns="http://www.w3.org/2000/svg"
             class="fill-current size-3.5"
@@ -145,7 +162,7 @@
       </a>
     </li>
     <li>
-      <a class="block border-1 border-white rounded-full p-2" href="">
+      <a class="block border-1 border-white rounded-full p-2 hover:border-hdl-pink hover:text-hdl-pink transition-colors ease-in" href="">
         <svg
             xmlns="http://www.w3.org/2000/svg"
             class="fill-current size-3.5"
@@ -158,7 +175,7 @@
       </a>
     </li>
     <li>
-      <a class="block border-1 border-white rounded-full p-2" href="">
+      <a class="block border-1 border-white rounded-full p-2 hover:border-hdl-pink hover:text-hdl-pink transition-colors ease-in" href="">
         <svg
             xmlns="http://www.w3.org/2000/svg"
             class="fill-current size-3.5"

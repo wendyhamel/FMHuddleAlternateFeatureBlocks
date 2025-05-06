@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="./src/css/main.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+
+</head>
+<body>
+<header class="bg-hdl-light-cyan flex justify-between item-center py-6 px-3.5">
+  <img class="w-26 h-auto object-contain" src="./images/logo.svg" alt="">
+  <button type="button" class="bg-white rounded-full shadow-hdl-glow text-hdl-dark-cyan font-bold text-xs px-5 py-1">Try It Free</button>
+</header>
+<main class="relative antialiased">
+  <section class="relative bg-hdl-light-cyan pt-15 px-9 pb-10">
+    <picture>
+      <source srcset="./images/bg-hero-desktop.svg" media="(min-width: 640px)">
+      <img class="absolute -translate-y-30 w-full inset-x-0" src="./images/bg-hero-mobile.svg" aria-hidden="true">
+    </picture>
+    <div class="relative grid gap-6">
+      <h1 class="font-heading font-semibold text-2xl/9 text-center md:text-4xl lg:text-5xl">Build The Community Your Fans Will Love</h1>
+      <p class="text-center pb-1.5">
+        Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+        Create connections with your users as you engage in genuine discussion.
+      </p>
+      <button type="button" class="place-self-center bg-hdl-pink rounded-full text-white text-xs font-bold px-15 py-3">Get Started For Free</button>
+    </div>
+    <div class="relative px-1 pt-13">
+      <img class="object-cover" src="./images/illustration-mockups.svg" alt="">
+    </div>
+  </section>
+  <section class="px-5 pt-15 grid gap-10">
+    <div class="rounded-2xl shadow-hdl-glow bg-white pt-14 px-9 pb-10 grid gap-4">
+      <img class="px-3" src="./images/illustration-grow-together.svg" alt="">
+      <h2 class="font-heading font-semibold text-xl text-center pt-10">Grow Together</h2>
+      <p class="text-center text-sm text-hdl-gray-blue">
+        Generate meaningful discussions with your audience and build a strong, loyal community.
+        Think of the insightful conversations you miss out on with a feedback form.
+      </p>
+    </div>
+    <div class="rounded-2xl shadow-hdl-glow bg-white pt-14 px-9 pb-14 grid gap-4">
+      <img class="p-2" src="./images/illustration-flowing-conversation.svg" alt="">
+      <h2 class="font-heading font-semibold text-xl text-center pt-10">Flowing Conversations</h2>
+      <p class="text-center text-sm text-hdl-gray-blue">
+        You wouldn't paginate a conversation in real life, so why do it online? Our threads
+        have just-in-time loading for a more natural flow.
+      </p>
+    </div>
+    <div class="rounded-2xl shadow-hdl-glow bg-white pt-14 px-9 pb-9 grid gap-4">
+      <img class="px-2 pb-2" src="./images/illustration-your-users.svg" alt="">
+    <h2 class="font-heading font-semibold text-xl text-center pt-10">Your Users</h2>
+     <p class="text-center text-sm text-hdl-gray-blue px-2">
+      It takes no time at all to integrate Huddle with your app's authentication solution.
+      This means, once signed in to your app, your users can start chatting immediately.
+     </p>
+    </div>
+  </section>
+  <section class="bg-linear-to-b from-white via-white via-62% to-hdl-dark-cyan to-62% px-3 mt-30">
+    <div class="rounded-2xl shadow-hdl-glow bg-white pt-11 px-5 pb-10 grid gap-6">
+      <h2 class="font-heading font-semibold text-lg text-center">Ready To Build Your Community?</h2>
+      <button type="button" class="place-self-center bg-hdl-pink rounded-full text-white text-xs font-bold px-10 py-3">Get Started For Free</button>
+    </div>
+  </section>
+</main>
+
+<footer class="bg-hdl-dark-cyan text-white pt-19 px-4">
+  <img class="w-42" src="./images/logo_for_dark_bg.svg" alt="">
+  <address class="not-italic grid gap-5 pt-6 pb-3">
+    <div class="flex gap-7">
+      <span class="shrink-0 translate-y-2 text-center">
+        <img src="./images/icon-location.svg" alt="">
+      </span>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua
+      </p>
+    </div>
+    <div class="flex gap-7">
+      <span class="shrink-0 translate-y-2 text-center">
+        <img src="./images/icon-phone.svg" alt="">
+      </span>
+      <span>
+        +1-543-123-4567
+      </span>
+    </div>
+    <div class="flex gap-7">
+      <span class="shrink-0 translate-y-2 text-center">
+        <img src="./images/icon-email.svg" alt="">
+      </span>
+      <span>
+        example@huddle.com
+      </span>
+    </div>
+  </address>
+
+  <ul class="grid gap-4 py-12">
+    <li>
+      <a class="text-lg" href="">
+        About Us
+      </a>
+    </li>
+    <li>
+      <a class="text-lg" href="">
+        What We Do
+      </a>
+    </li>
+    <li>
+      <a class="text-lg" href="">
+        FAQ
+      </a>
+    </li>
+    <li>
+      <a class="text-lg" href="">
+        Career
+      </a>
+    </li>
+    <li>
+      <a class="text-lg" href="">
+        Blog
+      </a>
+    </li>
+    <li>
+      <a href="">
+        Contact Us
+      </a>
+    </li>
+  </ul>
+  <ul class="flex gap-3 justify-center pb-6">
+    <li>
+      <a class="block border-1 border-white rounded-full p-2" href="">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="fill-current size-3.5"
+            viewBox="0 0 320 512"
+            fill="currentColor"
+        >
+          <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+          <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a class="block border-1 border-white rounded-full p-2" href="">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="fill-current size-3.5"
+            viewBox="0 0 512 512"
+            fill="currentColor"
+        >
+          <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+          <path d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a class="block border-1 border-white rounded-full p-2" href="">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="fill-current size-3.5"
+            viewBox="0 0 448 512"
+            fill="currentColor"
+        >
+          <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+          <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+        </svg>
+      </a>
+    </li>
+  </ul>
+<p class="text-xs text-center pb-11">&copy; Copyright 2018 Huddle. All rights reserved.</p>
+
+  <section class="fixed bottom-0 inset-x-0 text-center text-hdl-dark-cyan text-sm p-2 bg-white/90 opacity-0 translate-y-6 hover:opacity-100 hover:translate-y-0 focus-within:opacity-100 focus-within:translate-y-0 transform transition ease-in-out duration-300">
+    Challenge by <a class="rounded-xs text-hdl-dark-cyan hover:text-hdl-pink hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-hdl-light-blue/90 focus:ring-hdl-red" href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100" target="_blank">Frontend Mentor</a>.
+    Coded by <a class="rounded-xs text-hdl-dark-cyan hover:text-hdl-pink hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-hdl-light-blue/90 focus:ring-hdl-red" href="https://www.frontendmentor.io/profile/wendyhamel" target="_blank">Wendy Hamel</a>.
+  </section>
+</footer>
+</body>
+</html>

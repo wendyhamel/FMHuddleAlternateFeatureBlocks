@@ -5,6 +5,10 @@
 	--font-heading: "Poppins", sans-serif;
 	--font-sans: "Open Sans", sans-serif;
 
+	--text-2\.5xl: 1.75rem;
+	--text-3\.5xl: 2rem;
+	--text-4\.5xl: 2.5rem;
+
 	--color-hdl-pink: hsl(322, 100%, 66%);
 	--color-hdl-light-cyan: hsl(193, 100%, 96%);
 	--color-hdl-dark-cyan: hsl(192, 100%, 9%);
